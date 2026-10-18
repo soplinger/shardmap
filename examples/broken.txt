@@ -1,0 +1,7 @@
+vnodes 0
+replicas 4
+node cache-a
+node cache-a weight=2
+node cache b
+node cache-c weight=abc
+bogus directive here

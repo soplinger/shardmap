@@ -1,0 +1,7 @@
+# Three cache nodes. cache-b has twice the RAM, so it takes twice the keys.
+vnodes 160
+replicas 2
+
+node cache-a
+node cache-b weight=2
+node cache-c
